@@ -5,7 +5,18 @@ In this project, we seek to identify which patients have Alzheimer’s Disease b
 
 
 # Step 1: Data Preprocessing (Optional)
-Using the uploaded input data CSV files: oasis_label_2.csv, oasis_image_data_dates.csv, and NACC_LABELS_CLASSIFICATION.csv, run CNN_InputData_v2.ipynb to obtain the input tensors. Otherwise, the input tensors have also been uploaded and available to download.
+Instructions: Using the uploaded input data CSV files: oasis_label_2.csv, oasis_image_data_dates.csv, and NACC_LABELS_CLASSIFICATION.csv, run CNN_InputData_v2.ipynb to obtain the input tensors. Otherwise, the input tensors have also been uploaded and available to download.
+
+Steps:
+1. OASIS - Map MRI scan file names we have to the label from the oasis_label_2.csv file provided.
+2. OASIS - Eliminate matches more than 180 days between diagnosis and MRI scan
+3. OASIS - Keep matches belonging to the 3 categories: Cognitively normal, AD dementia, and Uncertain dementia.
+4. NACC - Map MRI scan file names to labels from data_nacc_diagnosis.xlsx
+5. Normalize age to be between 0 and 1
+6. Enforce one-hot encoding for sex
+7. Merge OASIS & NACC data samples (total: 7768)
+8. Divide data samples into training, validation, and test sets (80%, 10%, 10%)
+9. Return all samples into 4 NumPy arrays: img (image path), age, sex, label
 
 # Step 2: Running the model
 Using the input tensors provided (eg. train_img.npy), run cnn_brain_mri_v10.ipynb. This file contains the 3D CNN model with a default num_epochs=3, learning_rate = 0.01, and minibatch_size = 50. Alternatively, run cnn_v10.py.
