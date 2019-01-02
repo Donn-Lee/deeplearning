@@ -5,7 +5,8 @@ In this project, we seek to identify which patients have Alzheimer’s Disease b
 
 
 # Step 1: Data Preprocessing (Optional)
-Instructions: Using the uploaded input data CSV files: oasis_label_2.csv, oasis_image_data_dates.csv, and NACC_LABELS_CLASSIFICATION.csv, run CNN_InputData_v2.ipynb to obtain the input tensors. Otherwise, the input tensors have also been uploaded and available to download.
+Instructions:
+Using the uploaded input data CSV files: oasis_label_2.csv, oasis_image_data_dates.csv, and NACC_LABELS_CLASSIFICATION.csv, run CNN_InputData_v2.ipynb to obtain the input tensors. Otherwise, the input tensors have also been uploaded and available to download.
 
 Steps:
 1. OASIS - Map MRI scan file names we have to the label from the oasis_label_2.csv file provided.
@@ -16,7 +17,17 @@ Steps:
 6. Enforce one-hot encoding for sex
 7. Merge OASIS & NACC data samples (total: 7768)
 8. Divide data samples into training, validation, and test sets (80%, 10%, 10%)
-9. Return all samples into 4 NumPy arrays: img (image path), age, sex, label
+9. Return all samples into 4 NumPy arrays: img (just image path to save memory), age, sex, label
+
+Size of data sets: training - 6211, validation - 773, test - 784
 
 # Step 2: Running the model
+Instructions:
 Using the input tensors provided (eg. train_img.npy), run cnn_brain_mri_v10.ipynb. This file contains the 3D CNN model with a default num_epochs=3, learning_rate = 0.01, and minibatch_size = 50. Alternatively, run cnn_v10.py.
+
+Steps:
+1. Load all input tensors
+2. Enforce one-hot encoding for labels
+3. Add new axis to img, age, sex
+4. Define function to retrieve images from img_path, including downsampling and normalizing images
+5. Model
