@@ -38,4 +38,4 @@ Steps:
     *  random_mini_batches function is used to divide whole data into batches to increase training speed.
     *  model function is to use all functions above to train the model and output the result. Tune hyperparamers and call model function to get the cost & accuracy rate 
 6. Call the model function, specifying learning_rate, num_epochs, minibatch_size, and whether the model is pretrained, to get cost and training & validation accuracy rate
-7. Save accuracy rates, epoch_traccuracy and epoch_vlaccuracy, as NumPy arrays (.npy files) if running on Jupyter notebook, or save print output if running Python script.
+7. Save costs and accuracy rates, epoch_traccuracy and epoch_vlaccuracy, as NumPy arrays (.npy files) if running on Jupyter notebook, or save print output into outfile if running Python script.
