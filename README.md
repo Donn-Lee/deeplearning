@@ -23,7 +23,7 @@ Size of data sets: training - 6211, validation - 773, test - 784
 
 # Step 2: Running the model
 Instructions:
-Using the input tensors provided (eg. train_img.npy), run cnn_brain_mri_v10.ipynb. This file contains the 3D CNN model with a default num_epochs=3, learning_rate = 0.01, and minibatch_size = 50. Alternatively, run CNN_v10.py.
+Using the input tensors provided (eg. train_img.npy), run cnn_brain_mri_v10.ipynb. This file contains the 3D CNN model with a default num_epochs=3, learning_rate = 0.01, and minibatch_size = 50. Alternatively, run cnn_v10.py.
 
 Steps:
 1. Load all input tensors
@@ -31,4 +31,10 @@ Steps:
 3. Add new axis to img, age, sex
 4. Define function to retrieve images from img_path, including downsampling and normalizing images
 5. Model
-6. Save epoch_traccuracy and epoch_vlaccuracy as .npy files if running on Jupyter Notebook, or save print output into outfile if running Python script
+    *  create_placeholders function is to create the placeholders for dataset and labels with the same size.
+    *  initialize_parameters function helps define our parameters based on the model architecture.
+    *  forward_propagation function is the main part of building model architecture.
+    *  compute_cost function helps define what kind of cost we are going to use.
+    *  random_mini_batches function is used to divide whole data into batches to increase training speed.
+    *  model function is to use all functions above to train the model and output the result. Tune hyperparamers and call model function to get the cost accuracy rate 
+    
