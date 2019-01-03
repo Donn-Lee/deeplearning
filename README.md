@@ -39,3 +39,32 @@ Steps:
     *  model function is to use all functions above to train the model and output the result. Tune hyperparamers and call model function to get the cost & accuracy rate 
 6. Call the model function, specifying learning_rate, num_epochs, minibatch_size, and whether the model is pretrained, to get cost and training & validation accuracy rate
 7. Save costs and accuracy rates, epoch_traccuracy and epoch_vlaccuracy, as NumPy arrays (.npy files) if running on Jupyter notebook, or save print output into outfile if running Python script.
+
+
+
+
+
+
+
+
+References
+
+Installing Tensorflow-GPU with NVIDIA CUDA on a Google Cloud Platform VM instance:
+https://medium.com/searce/installing-tensorflow-gpu-with-nvidia-cuda-on-a-google-cloud-platform-vm-instance-b059ea47e55c
+Visualizing Convolutional Networks for MRI-based Diagnosis of Alzheimer's Disease: https://arxiv.org/pdf/1808.02874.pdf
+http://adni.loni.usc.edu/data-samples/data-types/
+https://arxiv.org/pdf/1512.03385.pdf
+https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035
+https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202
+Predicting Alzheimer's disease: a neuroimaging study with 3D convolutional neural networks: https://arxiv.org/pdf/1502.02506.pdf
+E. Hosseini-Asl, R. Keynton and A. El-Baz, "Alzheimer's disease diagnostics by adaptation of 3D convolutional network," 2016 IEEE International Conference on Image Processing (ICIP), Phoenix, AZ, 2016, pp. 126-130: https://arxiv.org/pdf/1607.00556.pdf
+Towards Alzheimer’s Disease Classification through Transfer Learning: https://arxiv.org/pdf/1711.11117.pdf
+Generation of structural MR images from amyloid PET: Application to MR-less quantification: http://jnm.snmjournals.org/content/early/2017/12/06/jnumed.117.199414.full.pdf
+
+
+
+De Fauw, Jeffrey, et al. "Clinically applicable deep learning for diagnosis and referral in retinal disease." Nature medicine (2018)
+Intro to Analyzing Brain Imaging Data— Part I: fMRI Data Structure
+https://medium.com/coinmonks/visualizing-brain-imaging-data-fmri-with-python-e1d0358d9dba
+Kaiming He, Xiangyu Zhang, Shaoqing Ren: “Deep Residual Learning for Image Recognition”, 2015; [http://arxiv.org/abs/1512.03385 arXiv:1512.03385].
+
