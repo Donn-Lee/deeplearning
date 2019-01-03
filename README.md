@@ -23,7 +23,7 @@ Size of data sets: training - 6211, validation - 773, test - 784
 
 # Step 2: Running the model
 Instructions:
-Using the input tensors provided (eg. train_img.npy), run cnn_brain_mri_v10.ipynb. This file contains the 3D CNN model with a default num_epochs=3, learning_rate = 0.01, and minibatch_size = 50. Alternatively, run cnn_v10.py.
+Using the input tensors provided (eg. train_img.npy), run cnn_brain_mri_v10.ipynb. This file contains the 3D CNN model with a default num_epochs=3, learning_rate = 0.01, and minibatch_size = 50. Alternatively, run CNN_v10.py.
 
 Steps:
 1. Load all input tensors
@@ -36,5 +36,6 @@ Steps:
     *  forward_propagation function is the main part of building model architecture.
     *  compute_cost function helps define what kind of cost we are going to use.
     *  random_mini_batches function is used to divide whole data into batches to increase training speed.
-    *  model function is to use all functions above to train the model and output the result. Tune hyperparamers and call model function to get the cost accuracy rate 
-    
+    *  model function is to use all functions above to train the model and output the result. Tune hyperparamers and call model function to get the cost & accuracy rate 
+6. Call the model function, specifying learning_rate, num_epochs, minibatch_size, and whether the model is pretrained, to get cost and training & validation accuracy rate
+7. Save accuracy rates, epoch_traccuracy and epoch_vlaccuracy, as NumPy arrays (.npy files) if running on Jupyter notebook, or save print output if running Python script.
