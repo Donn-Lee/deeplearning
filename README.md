@@ -41,6 +41,8 @@ Steps:
 7. Save costs and accuracy rates, epoch_traccuracy and epoch_vlaccuracy, as NumPy arrays (.npy files) if running on Jupyter notebook, or save print output into outfile if running Python script.
 
 
+
+
 # References
 
 1. Desai, Megha. “Installing Tensorflow-GPU with NVIDIA CUDA on a Google Cloud Platform VM instance” (2018).
