@@ -49,17 +49,17 @@ Steps:
 
 References
 
-Installing Tensorflow-GPU with NVIDIA CUDA on a Google Cloud Platform VM instance:
+1. Installing Tensorflow-GPU with NVIDIA CUDA on a Google Cloud Platform VM instance:
 https://medium.com/searce/installing-tensorflow-gpu-with-nvidia-cuda-on-a-google-cloud-platform-vm-instance-b059ea47e55c
-Visualizing Convolutional Networks for MRI-based Diagnosis of Alzheimer's Disease: https://arxiv.org/pdf/1808.02874.pdf
-http://adni.loni.usc.edu/data-samples/data-types/
-https://arxiv.org/pdf/1512.03385.pdf
-https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035
-https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202
-Predicting Alzheimer's disease: a neuroimaging study with 3D convolutional neural networks: https://arxiv.org/pdf/1502.02506.pdf
-E. Hosseini-Asl, R. Keynton and A. El-Baz, "Alzheimer's disease diagnostics by adaptation of 3D convolutional network," 2016 IEEE International Conference on Image Processing (ICIP), Phoenix, AZ, 2016, pp. 126-130: https://arxiv.org/pdf/1607.00556.pdf
-Towards Alzheimer’s Disease Classification through Transfer Learning: https://arxiv.org/pdf/1711.11117.pdf
-Generation of structural MR images from amyloid PET: Application to MR-less quantification: http://jnm.snmjournals.org/content/early/2017/12/06/jnumed.117.199414.full.pdf
+2. Visualizing Convolutional Networks for MRI-based Diagnosis of Alzheimer's Disease: https://arxiv.org/pdf/1808.02874.pdf
+3. http://adni.loni.usc.edu/data-samples/data-types/
+4. https://arxiv.org/pdf/1512.03385.pdf
+5. https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035
+6. https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202
+7. Predicting Alzheimer's disease: a neuroimaging study with 3D convolutional neural networks: https://arxiv.org/pdf/1502.02506.pdf
+9. E. Hosseini-Asl, R. Keynton and A. El-Baz, "Alzheimer's disease diagnostics by adaptation of 3D convolutional network," 2016 IEEE International Conference on Image Processing (ICIP), Phoenix, AZ, 2016, pp. 126-130: https://arxiv.org/pdf/1607.00556.pdf
+10. Towards Alzheimer’s Disease Classification through Transfer Learning: https://arxiv.org/pdf/1711.11117.pdf
+11. Generation of structural MR images from amyloid PET: Application to MR-less quantification: http://jnm.snmjournals.org/content/early/2017/12/06/jnumed.117.199414.full.pdf
 
 
 
