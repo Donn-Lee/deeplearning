@@ -60,11 +60,8 @@ https://medium.com/searce/installing-tensorflow-gpu-with-nvidia-cuda-on-a-google
 9. E. Hosseini-Asl, R. Keynton and A. El-Baz, "Alzheimer's disease diagnostics by adaptation of 3D convolutional network," 2016 IEEE International Conference on Image Processing (ICIP), Phoenix, AZ, 2016, pp. 126-130: https://arxiv.org/pdf/1607.00556.pdf
 10. Towards Alzheimer’s Disease Classification through Transfer Learning: https://arxiv.org/pdf/1711.11117.pdf
 11. Generation of structural MR images from amyloid PET: Application to MR-less quantification: http://jnm.snmjournals.org/content/early/2017/12/06/jnumed.117.199414.full.pdf
-
-
-
-De Fauw, Jeffrey, et al. "Clinically applicable deep learning for diagnosis and referral in retinal disease." Nature medicine (2018)
-Intro to Analyzing Brain Imaging Data— Part I: fMRI Data Structure
+12. De Fauw, Jeffrey, et al. "Clinically applicable deep learning for diagnosis and referral in retinal disease." Nature medicine (2018)
+13. Intro to Analyzing Brain Imaging Data— Part I: fMRI Data Structure
 https://medium.com/coinmonks/visualizing-brain-imaging-data-fmri-with-python-e1d0358d9dba
-Kaiming He, Xiangyu Zhang, Shaoqing Ren: “Deep Residual Learning for Image Recognition”, 2015; [http://arxiv.org/abs/1512.03385 arXiv:1512.03385].
+14. Kaiming He, Xiangyu Zhang, Shaoqing Ren: “Deep Residual Learning for Image Recognition”, 2015; [http://arxiv.org/abs/1512.03385 arXiv:1512.03385].
 
