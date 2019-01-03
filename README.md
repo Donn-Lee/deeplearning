@@ -31,7 +31,7 @@ Steps:
 3. Add new axis to img, age, sex
 4. Define function to retrieve images from img_path, including downsampling and normalizing images
 5. Model
-    *  create_placeholders function is to create the placeholders for dataset and labels with the same size.
+    *  create_placeholders function is to create the placeholders for dataset and labels with the same shape of input data.
     *  initialize_parameters function helps define our parameters based on the model architecture.
     *  forward_propagation function is the main part of building model architecture.
     *  compute_cost function helps define what kind of cost we are going to use.
