@@ -41,27 +41,34 @@ Steps:
 7. Save costs and accuracy rates, epoch_traccuracy and epoch_vlaccuracy, as NumPy arrays (.npy files) if running on Jupyter notebook, or save print output into outfile if running Python script.
 
 
+# References
 
-
-
-
-
-
-References
-
-1. Installing Tensorflow-GPU with NVIDIA CUDA on a Google Cloud Platform VM instance:
+1. Desai, Megha. “Installing Tensorflow-GPU with NVIDIA CUDA on a Google Cloud Platform VM instance” (2018).
 https://medium.com/searce/installing-tensorflow-gpu-with-nvidia-cuda-on-a-google-cloud-platform-vm-instance-b059ea47e55c
-2. Visualizing Convolutional Networks for MRI-based Diagnosis of Alzheimer's Disease: https://arxiv.org/pdf/1808.02874.pdf
-3. http://adni.loni.usc.edu/data-samples/data-types/
-4. https://arxiv.org/pdf/1512.03385.pdf
-5. https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035
-6. https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202
-7. Predicting Alzheimer's disease: a neuroimaging study with 3D convolutional neural networks: https://arxiv.org/pdf/1502.02506.pdf
-9. E. Hosseini-Asl, R. Keynton and A. El-Baz, "Alzheimer's disease diagnostics by adaptation of 3D convolutional network," 2016 IEEE International Conference on Image Processing (ICIP), Phoenix, AZ, 2016, pp. 126-130: https://arxiv.org/pdf/1607.00556.pdf
-10. Towards Alzheimer’s Disease Classification through Transfer Learning: https://arxiv.org/pdf/1711.11117.pdf
-11. Generation of structural MR images from amyloid PET: Application to MR-less quantification: http://jnm.snmjournals.org/content/early/2017/12/06/jnumed.117.199414.full.pdf
-12. De Fauw, Jeffrey, et al. "Clinically applicable deep learning for diagnosis and referral in retinal disease." Nature medicine (2018)
-13. Intro to Analyzing Brain Imaging Data— Part I: fMRI Data Structure
-https://medium.com/coinmonks/visualizing-brain-imaging-data-fmri-with-python-e1d0358d9dba
-14. Kaiming He, Xiangyu Zhang, Shaoqing Ren: “Deep Residual Learning for Image Recognition”, 2015; [http://arxiv.org/abs/1512.03385 arXiv:1512.03385].
 
+2. Rieke, Johannes et al. “Visualizing Convolutional Networks for MRI-Based Diagnosis of Alzheimer's Disease.” MLCN/DLF/iMIMIC@MICCAI (2018). https://arxiv.org/pdf/1808.02874.pdf
+
+3. “Data Types of ADNI”.
+http://adni.loni.usc.edu/data-samples/data-types/
+
+4. K. He, X. Zhang, S. Ren and J. Sun, "Deep Residual Learning for Image Recognition," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, 2016, pp. 770-778. doi: 10.1109/CVPR.2016.90
+https://arxiv.org/pdf/1512.03385.pdf
+
+5. Fung, Vincent. “An Overview of ResNet and its Variants” (2017). https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035
+
+6. Raj, Bharath. “A Simple Guide to the Versions of the Inception Network”  (2018). https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202
+
+7. Payan, Adrien and Giovanni Montana. “Predicting Alzheimer's disease: a neuroimaging study with 3D convolutional neural networks.” ICPRAM (2015). https://arxiv.org/pdf/1502.02506.pdf
+
+8. E. Hosseini-Asl, R. Keynton and A. El-Baz, "Alzheimer's disease diagnostics by adaptation of 3D convolutional network," 2016 IEEE International Conference on Image Processing (ICIP), Phoenix, AZ, 2016, pp. 126-130.
+https://arxiv.org/pdf/1607.00556.pdf
+
+9. Hon, Marcia & Khan, Naimul. “Towards Alzheimer's Disease Classification through Transfer Learning” (2017).
+https://arxiv.org/pdf/1711.11117.pdf
+
+10. Choi, Hongyoon & Lee, Dong. (2017). Generation of Structural MR Images from Amyloid PET: Application to MR-Less Quantification. Journal of Nuclear Medicine. 59. jnumed.117.199414. 10.2967/jnumed.117.199414. http://jnm.snmjournals.org/content/early/2017/12/06/jnumed.117.199414.full.pdf
+
+11. De Fauw, Jeffrey, et al. "Clinically applicable deep learning for diagnosis and referral in retinal disease." Nature medicine (2018)
+
+12. Klein, Carsten. Intro to Analyzing Brain Imaging Data— Part I: fMRI Data Structure (2018).
+https://medium.com/coinmonks/visualizing-brain-imaging-data-fmri-with-python-e1d0358d9dba
